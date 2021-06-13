@@ -1,0 +1,12 @@
+{
+    "name": "React",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "node",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+      "graphql.vscode-graphql",
+      "dsznajder.es7-react-js-snippets",
+      "xabikos.javascriptsnippets"
+    ],
+    "shutdownAction": "stopCompose"
+  }
