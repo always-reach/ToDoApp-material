@@ -1,9 +1,10 @@
 FROM node:14-alpine
 
+RUN mkdir /workspace
+
 WORKDIR /workspace
 
-COPY package*.json ./
+COPY package.json ./
 
-RUN yarn install
+RUN npm i
 
-COPY . .
